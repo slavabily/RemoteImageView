@@ -28,6 +28,7 @@
 
 import SwiftUI
 
+@available(macOS 10.15, *)
 public struct RemoteImageView<Content: View>: View {
     //1
     @ObservedObject var imageFetcher: RemoteImageFetcher
